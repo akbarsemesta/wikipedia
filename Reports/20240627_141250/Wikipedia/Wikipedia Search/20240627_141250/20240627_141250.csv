@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Wikipedia Search,Chrome 126.0.0.0,,,27-06-2024 14:13:18,27-06-2024 14:13:59,41.571s,PASSED
+,,,,,,,
+Test Cases/Wikipedia/Search Wikipedia,Chrome 126.0.0.0,,,27-06-2024 14:13:21,27-06-2024 14:13:59,38.815s,PASSED
+"openBrowser(""https://www.wikipedia.org/"")",Chrome 126.0.0.0,,,27-06-2024 14:13:22,27-06-2024 14:13:47,25.568s,PASSED
+delay(3),Chrome 126.0.0.0,,,27-06-2024 14:13:47,27-06-2024 14:13:50,3.067s,PASSED
+"setText(findTestObject(""Wikipedia/Search box wikipedia""), ""bob marley"")",Chrome 126.0.0.0,,,27-06-2024 14:13:50,27-06-2024 14:13:51,0.763s,PASSED
+delay(3),Chrome 126.0.0.0,,,27-06-2024 14:13:51,27-06-2024 14:13:54,3.009s,PASSED
+"click(findTestObject(""Wikipedia/button search wikipedia""))",Chrome 126.0.0.0,,,27-06-2024 14:13:54,27-06-2024 14:13:56,2.255s,PASSED
+delay(3),Chrome 126.0.0.0,,,27-06-2024 14:13:56,27-06-2024 14:13:59,3.013s,PASSED
